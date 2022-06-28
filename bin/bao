@@ -1,0 +1,21 @@
+#!/bin/sh
+unset IFS
+set -euf
+
+usage() {
+    echo "Usage: $0 <path>"
+}
+
+if [ "$#" -lt 1 ]; then
+    usage
+    exit 1
+fi
+
+PATH_INPUT="$1"
+PATH_BASE="${PATH_INPUT%.*}"
+PATH_PS="${PATH_BASE}.ps"
+PATH_OUTPUT="${PATH_BASE}.optimized.pdf"
+
+trap "rm $PATH_PS" INT TERM EXIT
+pdf2ps -dLanguageLevel=3 "$PATH_INPUT"
+ps2pdf -sOutputFile="$PATH_OUTPUT" -dPDFSETTINGS=/ebook "$PATH_PS"
