@@ -16,6 +16,6 @@ PATH_BASE="${PATH_INPUT%.*}"
 PATH_PS="${PATH_BASE}.ps"
 PATH_OUTPUT="${PATH_BASE}.optimized.pdf"
 
-trap "rm $PATH_PS" INT TERM EXIT
+trap "rm $PATH_PS" INT TERM EXIT ERR
 pdf2ps -dLanguageLevel=3 "$PATH_INPUT"
 ps2pdf -sOutputFile="$PATH_OUTPUT" -dPDFSETTINGS=/ebook "$PATH_PS"
