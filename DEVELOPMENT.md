@@ -18,14 +18,8 @@
 $ vast iaudit
 ```
 
-# BUILD: LINT + TEST
-
-```console
-$ vast
-```
-
 # LINT
 
 ```console
-$ vast ilint
+$ vast [ilint]
 ```
