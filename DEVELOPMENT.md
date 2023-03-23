@@ -1,10 +1,11 @@
 # BUILDTIME REQUIREMENTS
 
-* [Go](https://go.dev/) 1.20.2+ with `go install github.com/mcandre/accio/cmd/accio@v0.0.4` and `accio -install`
-* [coreutils](https://www.gnu.org/software/coreutils/)
-* [Python](https://www.python.org/) 3.11.2+ with `pip[3] install --upgrade pip setuptools` and `pip[3] install -r requirements-dev.txt`
-* [ShellCheck](https://hackage.haskell.org/package/ShellCheck)
+* a UNIX environment with [coreutils](https://www.gnu.org/software/coreutils/) / [base](http://ftp.freebsd.org/pub/FreeBSD/releases/), [macOS](https://www.apple.com/macos), [WSL](https://learn.microsoft.com/en-us/windows/wsl/install), etc.
+* [Ghostscript](https://www.ghostscript.com/)
 * [vast](http://github.com/mcandre/vast) 0.0.1
+* [ShellCheck](https://hackage.haskell.org/package/ShellCheck)
+* [Go](https://go.dev/) 1.20.2+ with `go install github.com/mcandre/accio/cmd/accio@v0.0.4` and `accio -install`
+* [Python](https://www.python.org/) 3.11.2+ with `pip[3] install --upgrade pip setuptools` and `pip[3] install -r requirements-dev.txt`
 
 ## Recommended
 
@@ -15,11 +16,11 @@
 # AUDIT
 
 ```console
-$ vast iaudit
+$ vast v-audit
 ```
 
 # LINT
 
 ```console
-$ vast [ilint]
+$ vast [v-lint]
 ```
