@@ -26,7 +26,7 @@ Note: Sometimes Ghostscript can output files the same size or larger than the in
 
 # LICENSE
 
-FreeBSD
+BSD-2-Clause
 
 # REQUIREMENTS
 
