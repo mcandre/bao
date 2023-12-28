@@ -7,7 +7,7 @@
 * [Ghostscript](https://www.ghostscript.com/)
 * [ShellCheck](https://hackage.haskell.org/package/ShellCheck)
 * [Go](https://go.dev/) 1.20.2+
-* [Python](https://www.python.org/) 3.11.2+
+* [Python](https://www.python.org/) 3.12.1+
 * Provision additional dev tools with `make -f install.mk`
 
 ## Recommended
