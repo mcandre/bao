@@ -22,7 +22,7 @@ $ ls -Ahl
 
 bao uses Ghostscript in an attempt to optimize PDF files.
 
-Note: Sometimes Ghostscript can output files the same size or larger than the input. Always validate output files before use.
+Note: Sometimes Ghostscript can output files the same size or larger than the input. Check output file size before use.
 
 # LICENSE
 
@@ -30,7 +30,7 @@ BSD-2-Clause
 
 # REQUIREMENTS
 
-* a POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html) implementation
+* POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
 * [Ghostscript](https://www.ghostscript.com/)
 
 # CONTRIBUTING

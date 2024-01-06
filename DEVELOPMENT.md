@@ -1,8 +1,8 @@
 # BUILDTIME REQUIREMENTS
 
-* a UNIX environment with [coreutils](https://www.gnu.org/software/coreutils/) / [base](http://ftp.freebsd.org/pub/FreeBSD/releases/) / [macOS](https://www.apple.com/macos) / [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) / etc.
-* a POSIX compatible [find](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/find.html) implementation
-* a POSIX compatible [grep](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/grep.html) implementation
+* POSIX compatible [findutils](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/find.html)
+* POSIX compatible [grep](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/grep.html)
+* POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
 * [Ghostscript](https://www.ghostscript.com/)
 * [ShellCheck](https://hackage.haskell.org/package/ShellCheck)
 * [Go](https://go.dev/) 1.21.5+
