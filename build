@@ -20,7 +20,7 @@ lint() {
 bashate() {
     stank -exInterp zsh . |
         grep -v .sample |
-        xargs -n 1 command bashate -i E006
+        xargs -n 1 bashate -i E006
 }
 
 funk() {
@@ -34,19 +34,19 @@ safety() {
 shellcheck() {
     stank -exInterp zsh . |
         grep -v .sample |
-        xargs -n 1 command shellcheck
+        xargs -n 1 shellcheck
 }
 
 shfmt() {
     stank -exInterp zsh . |
         grep -v .sample |
-        xargs -n 1 command shfmt -w -i 4
+        xargs -n 1 shfmt -w -i 4
 }
 
 slick() {
     stank -sh . |
         grep -v .sample |
-        xargs -n 1 command slick
+        xargs -n 1 slick
 }
 
 yamllint() {
