@@ -5,6 +5,7 @@
 * [Ghostscript](https://www.ghostscript.com/)
 * [ShellCheck](https://www.shellcheck.net/) 0.8.0+
 * [Go](https://go.dev/) 1.23.0+
+* [Node.js](https://nodejs.org/en/) 20.10.0+
 * [Python](https://www.python.org/) 3.12.1+
 * Provision additional dev tools with `./install`
 
