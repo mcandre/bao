@@ -4,9 +4,9 @@
 * POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
 * [Ghostscript](https://www.ghostscript.com/)
 * [ShellCheck](https://www.shellcheck.net/) 0.8.0+
-* [Go](https://go.dev/) 1.23.0+
-* [Node.js](https://nodejs.org/en/) 20.10.0+
+* [Go](https://go.dev/) 1.23.2+
 * [Python](https://www.python.org/) 3.12.1+
+* [Snyk](https://snyk.io/)
 * Provision additional dev tools with `./install`
 
 ## Recommended
