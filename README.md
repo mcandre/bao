@@ -33,6 +33,14 @@ BSD-2-Clause
 * POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
 * [Ghostscript](https://www.ghostscript.com/)
 
+# INSTALL
+
+Add .../bao/bin to `PATH`.
+
+# UNINSTALL
+
+Remove .../bao/bin from `PATH`.
+
 # CONTRIBUTING
 
 For more information on developing bao itself, see [DEVELOPMENT.md](DEVELOPMENT.md).
