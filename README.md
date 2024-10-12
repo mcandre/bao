@@ -28,18 +28,44 @@ Note: Sometimes Ghostscript can output files the same size or larger than the in
 
 BSD-2-Clause
 
-# REQUIREMENTS
+# RUNTIME REQUIREMENTS
 
 * POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
 * [Ghostscript](https://www.ghostscript.com/)
+* [git](https://git-scm.com/) 2.46.1+
 
 # INSTALL
 
-Add .../bao/bin to `PATH`.
+1. Clone the project to a local directory.
+
+```console
+$ git clone https://github.com/mcandre/bao.git ~/bao
+```
+
+2. Add .../bao/bin to `PATH`.
+
+~/.zshrc:
+
+```zsh
+# ...
+export PATH="$PATH:$HOME/bao/bin"
+```
 
 # UNINSTALL
 
-Remove .../bao/bin from `PATH`.
+1. Remove .../bao/bin from `PATH`.
+
+~/.zshrc:
+
+```zsh
+# ...
+```
+
+2. Remove local clone directory.
+
+```console
+$ rm -rf ~/bao
+```
 
 # CONTRIBUTING
 
