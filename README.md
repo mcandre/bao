@@ -30,9 +30,9 @@ BSD-2-Clause
 
 # RUNTIME REQUIREMENTS
 
-* POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
 * [Ghostscript](https://www.ghostscript.com/)
 * [git](https://git-scm.com/) 2.46.1+
+* POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
 
 # INSTALL
 
