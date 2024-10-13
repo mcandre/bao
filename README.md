@@ -70,3 +70,7 @@ $ rm -rf ~/bao
 # CONTRIBUTING
 
 For more information on developing bao itself, see [DEVELOPMENT.md](DEVELOPMENT.md).
+
+# SEE ALSO
+
+* [tigris](https://github.com/mcandre/tigris), (Kindle) comic archival utilities
