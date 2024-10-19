@@ -31,41 +31,11 @@ BSD-2-Clause
 # RUNTIME REQUIREMENTS
 
 * [Ghostscript](https://www.ghostscript.com/)
-* [git](https://git-scm.com/) 2.46.1+
 * POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
 
 # INSTALL
 
-1. Clone the project to a local directory.
-
-```console
-$ git clone https://github.com/mcandre/bao.git ~/bao
-```
-
-2. Add .../bao/bin to `PATH`.
-
-~/.zshrc:
-
-```zsh
-# ...
-export PATH="$PATH:$HOME/bao/bin"
-```
-
-# UNINSTALL
-
-1. Remove .../bao/bin from `PATH`.
-
-~/.zshrc:
-
-```zsh
-# ...
-```
-
-2. Remove local clone directory.
-
-```console
-$ rm -rf ~/bao
-```
+For more information on installing or uninstalling bao, see [INSTALL.md](INSTALL.md).
 
 # CONTRIBUTING
 
