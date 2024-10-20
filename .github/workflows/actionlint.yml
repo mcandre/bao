@@ -1,0 +1,11 @@
+---
+name: "Actionlint"
+on: # yamllint disable-line rule:truthy
+  push:
+  pull_request:
+jobs:
+  Lint:
+    runs-on: "ubuntu-24.04"
+    steps:
+    - name: "actionlint"
+      uses: "raven-actions/actionlint@v2"
