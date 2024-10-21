@@ -13,16 +13,7 @@ on: # yamllint disable-line rule:truthy
 jobs:
   Test-Futureproof-OS:
     runs-on: "ubuntu-latest"
-    env:
-      GOPATH: "/home/runner/go"
     steps:
-    - run: "echo \"/usr/local/go/bin\" >> \"$GITHUB_PATH\""
-    - run: "echo \"${GOPATH}/bin\" >> \"$GITHUB_PATH\""
     - run: "echo \"${GITHUB_WORKSPACE}/bin\" >> \"$GITHUB_PATH\""
     - uses: "actions/checkout@v4"
-    - run: "sudo apt-get update"
-    - run: "sudo apt-get install -y curl python3-venv"
-    - run: "curl -LO https://go.dev/dl/go1.23.2.linux-amd64.tar.gz"
-    - run: "sudo tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz"
-    - run: "./install"
     - run: "./build"
