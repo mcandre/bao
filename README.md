@@ -18,6 +18,8 @@ $ ls -Ahl
 -rw-r--r--@ 1 andrew  staff    66K Jun 28 15:14 monkeys-fist.pdf
 ```
 
+For more detail, see `bao -h`
+
 # ABOUT
 
 bao uses Ghostscript in an attempt to optimize PDF files.
