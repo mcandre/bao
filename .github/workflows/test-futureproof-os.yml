@@ -1,5 +1,5 @@
 ---
-name: "Test"
+name: "Test-Futureproof-OS"
 on: # yamllint disable-line rule:truthy
   push:
   pull_request:
@@ -11,7 +11,7 @@ on: # yamllint disable-line rule:truthy
   # Once a month
   - cron: "0 0 1 * *"
 jobs:
-  Test:
+  Test-Futureproof-OS:
     runs-on: "ubuntu-latest"
     env:
       GOPATH: "/home/runner/go"
