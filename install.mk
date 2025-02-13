@@ -5,7 +5,7 @@
 	go \
 	python
 
-all: go python
+all: go python rust
 
 go:
 	go install github.com/mcandre/slick/cmd/slick@v0.0.10
@@ -17,3 +17,6 @@ python:
 	python3 -m venv .venv
 	.venv/bin/python3 -m pip install --upgrade pip setuptools
 	.venv/bin/pip3 install -r requirements.txt
+
+rust:
+	cargo install --force unmake@0.0.17

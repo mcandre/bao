@@ -10,7 +10,8 @@
 	shfmt \
 	slick \
 	snyk \
-	test
+	test \
+	unmake
 
 all: test
 
@@ -20,7 +21,8 @@ lint: bashate \
 	funk \
 	shellcheck \
 	shfmt \
-	slick
+	slick \
+	unmake
 
 test:
 	bao -v
@@ -48,3 +50,6 @@ slick:
 snyk:
 	snyk test --all-projects --exclude=requirements.txt
 	snyk test --command=.venv/bin/python3
+
+unmake:
+	unmake .
