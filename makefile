@@ -17,7 +17,8 @@ all: test
 
 audit: snyk
 
-lint: bashate \
+lint: \
+	bashate \
 	funk \
 	shellcheck \
 	shfmt \
