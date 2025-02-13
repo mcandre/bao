@@ -3,7 +3,8 @@
 .PHONY: \
 	all \
 	go \
-	python
+	python \
+	rust
 
 all: go python rust
 
