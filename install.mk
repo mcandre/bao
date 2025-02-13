@@ -8,10 +8,7 @@
 all: go python rust
 
 go:
-	go install github.com/mcandre/slick/cmd/slick@v0.0.10
-	go install github.com/mcandre/stank/...@v0.0.30
-	go install mvdan.cc/sh/v3/cmd/shfmt@v3.7.0
-	go mod tidy
+	go install tool
 
 python:
 	python3 -m venv .venv
