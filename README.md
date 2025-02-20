@@ -35,6 +35,10 @@ BSD-2-Clause
 * [Ghostscript](https://www.ghostscript.com/)
 * POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
 
+## Recommended
+
+* [zsh](https://www.zsh.org/)
+
 # INSTALL
 
 For more information on installing or uninstalling bao, see [INSTALL.md](INSTALL.md).
