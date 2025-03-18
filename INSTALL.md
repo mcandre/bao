@@ -2,7 +2,7 @@
 
 * [Ghostscript](https://www.ghostscript.com/)
 * [git](https://git-scm.com/) 2.46.1+
-* POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
+* [POSIX](https://pubs.opengroup.org/onlinepubs/9799919799/) compatible [sh](https://en.wikipedia.org/wiki/Unix_shell)
 
 # INSTALL
 

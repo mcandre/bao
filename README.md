@@ -33,7 +33,7 @@ BSD-2-Clause
 # RUNTIME REQUIREMENTS
 
 * [Ghostscript](https://www.ghostscript.com/)
-* POSIX compatible [sh](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html)
+* [POSIX](https://pubs.opengroup.org/onlinepubs/9799919799/) compatible [sh](https://en.wikipedia.org/wiki/Unix_shell)
 
 ## Recommended
 
